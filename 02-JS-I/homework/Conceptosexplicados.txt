@@ -1,19 +1,23 @@
-Una varibable, es com un vaso, puede conetener jugo, gaseoasa, algun licuado, la diferencia con un vaso real es que lo fabricas vos, lo creas para que contenga lo que quiera.
-Un string, es una cadena en ingles, como los eslabones estan unidos y forman parte de una misma cosa ("Cosa" es un string ), esta cadena puede cortarse con las herramientas adecuadas, o pueder unirse a otras cadenas.
-Una funcion es un fragmento de codigo que tiene un objetivo especifico, es decir una serie de tareas que puedo ejecutar al usarla.
-Ejemplo antes cree un vaso, el vaso no tiene nada, podria crear una funcion que llene el vaso con agua.
+
+
+
+
+Una variable, es como un vaso, puede contener jugo, gaseosa, algún licuado, la diferencia con un vaso real es que lo fabricas vos, lo creas para que contenga lo que quiera.
+Un string, es una cadena en ingles, como los eslabones están unidos y forman parte de una misma cosa ("Cosa" es un string ), esta cadena puede cortarse con las herramientas adecuadas, o puede unirse a otras cadenas.
+Una función es un fragmento de código que tiene un objetivo específico, es decir una serie de tareas que puedo ejecutar al usarla.
+Ejemplo antes creamos un vaso, el vaso no tiene nada, podría crear una función que llene el vaso con agua.
 
 function llenar (vaso){
     console.log("El" + vaso + " esta lleno de agua");
 }
 
-La funciones puede recibir valores, argumentos, para a hacer algo con ellos, puede ser que quiera utilzar la funcion llenar para otra cosa.
-Por ejemplo quiero llenar una jarra con jugo, o con agua.
+La funciones puede recibir valores, argumentos, para a hacer algo con ellos, puede ser que quiera utilizar la función llenar para otra cosa.
+Por ejemplo llenar una jarra con jugo, o con agua.
 function llenar (recipiente, contenido) {
-    console.log ("El " + recpiente + " esta lleno de " +  contenido);
+    console.log ("El " + recipiente + " está lleno de " +  contenido);
 } 
 
-Las funcines pueden recibir o no argumentos, puedo tener una funcion para calmar la sed por ejemplo.
+Las funciones pueden recibir o no argumentos, puedo tener una función para calmar la sed por ejemplo.
 function calmarSed(){
     //Tomo un vaso con gaseosa y lo lleno
     var vaso;
@@ -23,7 +27,7 @@ function calmarSed(){
     
     }
 
-De esta forma esa funciona aparentmente calma la sed, pero nadie lo sabe, porque ella no informa que esto se ha echo, es decir no devuelve un resultado de la invocaci[on de su magia.
+De esta forma esa funciona aparentemente calma la sed, pero nadie lo sabe, porque ella no informa que esto se ha hecho, es decir no devuelve un resultado de la invocación de su magia.
 para ello podemos devolver el resultado retornando tomar:
 function calmarSed(){
     //Tomo un vaso con gaseosa y lo lleno
@@ -35,7 +39,7 @@ function calmarSed(){
     }
 Tambien  podemos decir con un condicional si algo se ejecute o no con if:
 function llenar (recipiente, contenido) {
-   //Lleno el recipiente concatendando el contenido.
+   //Lleno el recipiente concatenando el contenido.
    var llenado= recipiente + contenido;
    //Si la variable llenado no es numo devuelvo verdadero
    if llenado != null{
@@ -47,13 +51,8 @@ function llenar (recipiente, contenido) {
    }
 } 
 
-Los valores bolenos se utilizan para determinar si una determinada situaci[on que se presenta en la vida del programa es verdadera o falsa.
-Por ejemplo puedo determinar si tengo sed o no para llamara a la funcion calmar sed.
+Los valores booleanos se utilizan para determinar si una determinada situación que se presenta en la vida del programa es verdadera o falsa.
+Por ejemplo puedo determinar si tengo sed o no para llamar a la función calmar sed.
 var sediento = true;
-Puedo determinar si un vaso esta lleno o no (Aunque creo que esto te lo voy a explicar cuando veamos objetos).
-
-
-
-
-
+Puedo determinar si un vaso está lleno o no (Aunque creo que esto te lo voy a explicar cuando veamos objetos).
 
