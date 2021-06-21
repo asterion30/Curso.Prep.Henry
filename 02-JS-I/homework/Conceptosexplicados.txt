@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> master
 Una variable, es como un vaso, puede contener jugo, gaseosa, algún licuado, la diferencia con un vaso real es que lo fabricas vos, lo creas para que contenga lo que quiera.
 Un string, es una cadena en ingles, como los eslabones están unidos y forman parte de una misma cosa ("Cosa" es un string ), esta cadena puede cortarse con las herramientas adecuadas, o puede unirse a otras cadenas.
 Una función es un fragmento de código que tiene un objetivo específico, es decir una serie de tareas que puedo ejecutar al usarla.
@@ -37,6 +40,7 @@ function calmarSed(){
     var tomar= vaso + gaseosa;
     return tomar;
     }
+    
 Tambien  podemos decir con un condicional si algo se ejecute o no con if:
 function llenar (recipiente, contenido) {
    //Lleno el recipiente concatenando el contenido.
@@ -55,4 +59,7 @@ Los valores booleanos se utilizan para determinar si una determinada situación 
 Por ejemplo puedo determinar si tengo sed o no para llamar a la función calmar sed.
 var sediento = true;
 Puedo determinar si un vaso está lleno o no (Aunque creo que esto te lo voy a explicar cuando veamos objetos).
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
