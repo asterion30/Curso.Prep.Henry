@@ -1,0 +1,19 @@
+Un bucle se utiliza para realizar interaciones hasta que se cumpla una determinada condición.
+El for tiene tres partes, como los tres chiflados, cada uno tiene un proposito.
+Moe es el que dice tenemos levantar esta pared que tiene 0 ladrillos.
+Curli es el  que dice claro pero esta pared requiere 100 ladrillos cuando llegue a ese valor.
+Larry es el va trayendo de a un los ladrillos de a uno o de dos (en generla Larry es vago así que irá trayendo de a uno ++)
+Se sabe de antemano que estos bucles pueden ser infinitos (más si son los tres chiflados)
+Por  eso mejor usemos una letra, en general se usa la i (supongo por la palabra índice)
+
+Los operadores lógicos se utilizan para cuando quiero que dos condiciones se cumplan.
+Por ejemplo si tengo hambre y tengo sueño, puedo dormir y soñar que como.
+Si tengo tengo hambre y no tengo sueño, es probable que coma antes de dormir.
+Si tengo hambre o tengo sueño, puede elegir comer o dormir.
+Ahora si no tengo hambre y no tengo sueño, puedo tratar de explicar los operadores lógicos.
+Hay una tabla de verdad para esto supongo que la usaremos al principio y luego iremos ordenando logicamente las condiciones.
+En resumen creo que son tres y veamos cuando es verdadero:
+El AND && cuando todas las condiciones se cumplen da verdadero.
+El or || cuando una de las dos se cumplen es verdadero.
+El not  ! cuando algo no se cumple es verdadero.
+
