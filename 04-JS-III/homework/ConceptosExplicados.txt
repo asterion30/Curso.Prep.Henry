@@ -1,0 +1,33 @@
+Un array es un tipo de dato que se construye con una serie de elementos, y estos tienen un orden, un índice interno.
+Es con un cajón con compartimentos numerados, en el primer compartimento es 0, ahi puedo guardar un número o una palabra (string).
+También puedo guardar otros arrays o funciones dentro de un array.
+Este cajón de colecciones puede ser accedido a través de este índice para saber que hay en cada compartimiento.
+Para agregar elementos al Array puede hacer lo de forma literal, diciendo el el compartimento 0 pon la palabra “Botón”.
+var cajon[0]= “Botón”;
+de esta forma el botón quedará en el compartimento 0, ahora tengo hilo y también lo quiero agregar al cajón puedo hacer
+var cajon[0]= “Hilo”;
+No hay que dar puntada sin hilo, pero lo que acabo de hacer es desintegrar el botón en millones de partes no binarias.
+Entonces lo que debería hacer 
+var cajon[1]= “Hilo”;
+Entonces conservaré el botón, aunque no estoy seguro si en el compartimento 1 estaba la aguja, así que mejor lo hacemos de otra forma.
+
+Hay dos funciones para agregar o quitar elementos del cajón.
+Con el método push agrega el elemento al final de mi cajón (array).
+cajon.push(“Hilo”) //Ahora está al final de mi cajón en un compartimento nuevo.
+Con el método pop hago 2 cosas tomo el último el elemento y lo sacó del cajón
+
+var mano = cajon.pop(); //El hilo ahora esta en mi mano y no está más en el  cajón (magic).
+
+supongamos que quiero saber cuales son los elementos que hay en mi cajón para ello puedo utilizar un bucle for (bien por el for)
+
+for (var i = 0;  i < cajon.length; i++){
+	console.log(cajon[i]);
+}
+
+Esto me dará.
+botón
+aguja 
+rata muerta
+
+¿Y el hilo?
+(El hilo lo tengo en la mano … que memoria)
